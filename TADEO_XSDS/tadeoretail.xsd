@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="https://www.example.com"
+  xmlns="https://www.example.com"
+  elementFormDefault="qualified">
+
+  <xs:element name="retail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="inStorage" type="xs:int"/>
+        <xs:element name="isAvailable" type="xs:boolean"/>
+        <xs:element name="productname" type="xs:string"/>
+        <xs:element name="productprice" type="xs:decimal"/>
+        <xs:element name="productquantity" type="xs:int"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

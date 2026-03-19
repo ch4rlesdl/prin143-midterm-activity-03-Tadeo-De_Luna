@@ -1,8 +1,12 @@
-<?xml version="1.0" ?>
-<movies>
-	<director>Tatsuki Fujimoto</director>
-	<id>tt1524499</id>
-	<name>Look Back</name>
-	<rating>9.9</rating>
-	<year>2025</year>
+<?xml version="1.0"?>
+<movies xmlns="https://www.example.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.example.com ../TADEO_XSDS/tadeomovies.xsd">
+
+  <director>Tatsuki Fujimoto</director>
+  <id>tt1524499</id>
+  <name>Look Back</name>
+  <rating>9.9</rating>
+  <year>2025</year>
+
 </movies>

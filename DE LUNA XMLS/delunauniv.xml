@@ -1,8 +1,12 @@
-<?xml version="1.0" ?>
-<univ>
-	<course>BSIT</course>
-	<id>2480372</id>
-	<name>Charles De Luna</name>
-	<scholarship>No</scholarship>
-	<yearlevel>3rd</yearlevel>
+<?xml version="1.0"?>
+<univ xmlns="https://www.example.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.example.com ../TADEO_XSDS/tadeouniv.xsd">
+
+  <course>BSIT</course>
+  <id>2480372</id>
+  <name>Charles De Luna</name>
+  <scholarship>false</scholarship>
+  <yearlevel>3rd</yearlevel>
+
 </univ>

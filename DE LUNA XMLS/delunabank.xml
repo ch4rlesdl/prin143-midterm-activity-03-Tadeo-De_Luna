@@ -1,8 +1,12 @@
-<?xml version="1.0" ?>
-<bank>
-	<accountnum>23803299000</accountnum>
-	<balance>15000</balance>
-	<bank>Water 7</bank>
-	<branch>The Grand Line</branch>
-	<name>Monkey D. Luffy</name>
+<?xml version="1.0"?>
+<bank xmlns="https://www.example.com"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://www.example.com ../TADEO_XSDS/tadeobank.xsd">
+
+  <accountnum>23803299000</accountnum>
+  <balance>15000</balance>
+  <bank>Water 7</bank>
+  <branch>The Grand Line</branch>
+  <name>Monkey D. Luffy</name>
+
 </bank>

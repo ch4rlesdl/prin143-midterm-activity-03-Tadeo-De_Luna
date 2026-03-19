@@ -1,8 +1,12 @@
-<?xml version="1.0" ?>
-<election>
-	<age>48</age>
-	<candidacyfiled>2021-04-14</candidacyfiled>
-	<candidatename>Thomas Shelby</candidatename>
-	<runningFor>Mayor</runningFor>
-	<runningIn>Malolos</runningIn>
+<?xml version="1.0"?>
+<election xmlns="https://www.example.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.example.com ../TADEO_XSDS/tadeoelection.xsd">
+
+  <age>48</age>
+  <candidacyfiled>2021-04-14</candidacyfiled>
+  <candidatename>Thomas Shelby</candidatename>
+  <runningFor>Mayor</runningFor>
+  <runningIn>Malolos</runningIn>
+
 </election>

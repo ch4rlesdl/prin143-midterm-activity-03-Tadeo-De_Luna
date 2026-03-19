@@ -1,9 +1,12 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
+<retail xmlns="https://www.example.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.example.com ../TADEO_XSDS/tadeoretail.xsd">
 
-<retail>
-	<inStorage>4</inStorage>
-	<isAvailable>true</isAvailable>
-	<productname>Manga</productname>
-	<productprice>15.00</productprice>
-	<productquantity>5</productquantity>
+  <inStorage>4</inStorage>
+  <isAvailable>true</isAvailable>
+  <productname>Manga</productname>
+  <productprice>15.00</productprice>
+  <productquantity>5</productquantity>
+
 </retail>
