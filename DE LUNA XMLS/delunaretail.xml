@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+<retail>
+	<inStorage>4</inStorage>
+	<isAvailable>true</isAvailable>
+	<productname>Manga</productname>
+	<productprice>15.00</productprice>
+	<productquantity>5</productquantity>
+</retail>

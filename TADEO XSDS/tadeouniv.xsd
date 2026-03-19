@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified" 
+attributeFormDefault="unqualified">
+
+  <xs:element name="univ">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="course" type="xs:string" />
+        <xs:element name="id" type="xs:positiveInteger" />
+        <xs:element name="name" type="xs:string" />
+        <xs:element name="scholarship" type="xs:boolean" />
+        <xs:element name="yearlevel" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

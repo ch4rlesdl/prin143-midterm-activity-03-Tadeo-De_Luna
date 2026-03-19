@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified" 
+attributeFormDefault="unqualified">
+  
+  <xs:element name="bank">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element  name="accountnum" type="xs:long"/>
+        <xs:element  name="balance" type="xs:short"/>
+        <xs:element  name="bank" type="xs:string"/>
+        <xs:element  name="branch" type="xs:string"/>
+        <xs:element  name="name" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
